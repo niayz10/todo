@@ -1,0 +1,7 @@
+.items-list-container {
+    background-color: rgb(62, 131, 131);
+    color: rgb(231, 223, 223);
+    padding: 10px;
+    margin: 10px;
+    border: solid 10px rgb(193, 185, 185);
+}

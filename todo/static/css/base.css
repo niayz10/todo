@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(91, 233, 185);
+  color: rgb(251, 251, 251);
+  border: solid 10px rgb(12, 116, 119);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5; /* Фон для заголовка (можно изменить) */
+    border-bottom: 1px solid #ddd;
+}
+
+
+.home-link {
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.right-links {
+  display: flex;
+  gap: 20px; /* Расстояние между ссылками */
+}
+
+.right-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.flex-container a:hover {
+  color: #dc4524; /* Синий цвет при наведении */
+  text-decoration: underline;
+}

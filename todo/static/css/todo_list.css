@@ -1,0 +1,10 @@
+.todo-list-container {
+  background-color: rgb(16, 211, 84);
+  margin: 10px;
+  padding: 10px;
+}
+
+.todo-link {
+  color: rgb(203, 244, 239);
+  text-decoration: none;
+}
